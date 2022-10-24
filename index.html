@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div id="main-box">
+        <div id="box-title">
+          
+         </div>
+         <div id="goal-container">
+            <label for="winningScore">First to</label>
+            <select name="winningScore" id="playTo">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+       
+         </div>
+        <div id="scores">
+            <div class="score" ><span id="playerOneScore">0</span></div>
+            <p>to</p>
+            <div class="score"><span id="playerTwoScore">0</span></div>
+        </div>
+        <div id="btn-box">
+            <button id="p1btn">+1 Player 1</button>
+            <button id="p2btn">+1 Player 2</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>

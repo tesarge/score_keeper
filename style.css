@@ -1,0 +1,111 @@
+body {
+    background: linear-gradient(130deg, rgba(255,95,109,1) 0%, rgba(255,195,113,1) 100%);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#main-box {
+    margin: 10% auto;
+    width: 500px;
+    background-color:azure;
+    border: 5px #333 solid;
+}
+
+#box-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#goal-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#scores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    font-size: 4em;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #333;
+}
+
+select{
+    border: none;
+    background-color: azure;
+    color: #333;
+    font-size: 4em;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-left: 15px;
+}
+
+
+option{
+    font-size: .3em;
+    border: none;
+}
+
+.score{
+    padding: 0 30px;
+}
+
+#scores{
+    font-size: 6em;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #333;
+
+}
+
+#btn-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+button{
+    border: none;
+    font-size: 2em;
+    color: white;
+    padding: 5px 0;
+    flex-grow: 1;
+    width: 33.3%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+#reset{
+    background-color: tomato;
+}
+
+#reset:hover{
+    background-color: red;
+}
+
+#p1btn{
+    background-color:deepskyblue;
+}
+
+#p1btn:hover{
+    background-color: royalblue;
+}
+
+#p2btn{
+    background-color:mediumseagreen;
+}
+
+#p2btn:hover{
+    background-color: seagreen;
+}
+
+.winner{
+    color: green;
+}
+
+.loser {
+    color: red;
+}
